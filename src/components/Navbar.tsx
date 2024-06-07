@@ -25,7 +25,7 @@ export default function Navbar() {
     },
   ];
   return (
-    <div className="w-full max-w-screen-lg mx-auto m-2 p-1 flex justify-between items-center text-zinc-300 tracking-wide">
+    <div className="w-full max-w-screen-lg mx-auto m-2 p-1 flex justify-between items-center text-zinc-300 tracking-wide animate-move-down">
       <div className="flex">
         <Link href="/">
           <h1 className="text-sm font-medium text-zinc-200 z-10 underline space-y-10 underline-offset-8 decoration-4 decoration-emerald-500  -rotate-3">
@@ -35,7 +35,7 @@ export default function Navbar() {
       </div>
 
       {/* social links */}
-      <div className="flex gap-4 md:gap-6 z-10 ">
+      <div className="flex gap-4 md:gap-6 z-10">
         {links.map((social, idx) => {
           const Icon = social.icon;
           return (

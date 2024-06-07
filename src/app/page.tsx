@@ -29,7 +29,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="h-screen w-full bg-black dark:bg-black bg-grid-white/[0.1] dark:bg-grid-white/[0.2] relative p-6 tracking-wide">
+    <main className="h-screen w-full bg-black dark:bg-black bg-grid-white/[0.1] dark:bg-grid-white/[0.2] relative p-6 tracking-wide text-zinc-100">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <Navbar />
       <Hero />

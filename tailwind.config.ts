@@ -12,8 +12,36 @@ module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   darkMode: "class",
   theme: {
-    // rest of the code
+    extend: {
+      keyframes: {
+        "move-up": {
+          from: {
+            transform: "translateY(10px)",
+            opacity: 0,
+          },
+          to: {
+            transfrom: "translateY(0px)",
+            opacity: 1,
+          },
+        },
+        "move-down": {
+          from: {
+            transform: "translateY(-10px)",
+            opacity: 0,
+          },
+          to: {
+            transfrom: "translateY(0px)",
+            opacity: 1,
+          },
+        },
+      },
+      animation: {
+        "move-up": "move-up 1s forwards",
+        "move-down": "move-down 1s forwards",
+      },
+    },
   },
+
   plugins: [
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {

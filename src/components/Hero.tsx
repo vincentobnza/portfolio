@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="min-h-[70vh] w-full max-w-screen-lg flex flex-col justify-center items-center mx-auto text-center relative">
+    <div className="min-h-[70vh] w-full max-w-screen-lg flex flex-col justify-center items-center mx-auto text-center relative animate-move-up">
       <h3 className="font-medium text-sm md:text-sm text-zinc-200 mb-5">
         {"Nice to meet you, I'm Vincent 👋"}
       </h3>
@@ -23,8 +23,8 @@ export default function Hero() {
       </div>
 
       <Link href="https://www.facebook.com/Vincenttt.05" className="mt-12">
-        <h1 className="py-2 px-3 underline underline-offset-8 decoration-4 decoration-emerald-500 text-sm hover:-rotate-3 duration-300 ">
-          Contact Me 📢
+        <h1 className="text-zinc-100 py-2 px-3 underline underline-offset-8 decoration-4 decoration-emerald-500 text-sm hover:-rotate-3 duration-300 ">
+          Contact Me 👉
         </h1>
       </Link>
     </div>

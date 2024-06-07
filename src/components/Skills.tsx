@@ -46,10 +46,10 @@ export default function Skills() {
   ];
   return (
     <div className="max-w-screen-lg mx-auto text-center flex flex-col justify-center items-center mt-24">
-      <h1 className="text-xl font-black underline underline-offset-8 decoration-4 -rotate-3 decoration-yellow-500">
+      <h1 className="text-zinc-100 text-xl font-black underline underline-offset-8 decoration-4 -rotate-3 decoration-yellow-500">
         Skills Expertise 📚
       </h1>
-      <div className="w-40 h-1 bg-emerald-400 rounded-full mt-2 -rotate-3 translate-x-8 "></div>
+      <div className="w-40 h-1 bg-blue-500 rounded-full mt-2 -rotate-3 translate-x-8 "></div>
 
       <div className="flex justify-center items-center max-w-5xl mx-auto px-8">
         <HoverEffect items={skills} />
