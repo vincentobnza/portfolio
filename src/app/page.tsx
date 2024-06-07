@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
